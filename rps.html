@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <div id="main-body">
+        <div class="header">
+            <h1>Water Fire Grass</h1>
+            <h2>First to 5 wins</h2>
+            <div class="rules">
+                <p class="ruleText" id="waterRules">Water beats fire</p>
+                <p class="ruleText" id="fireRules">Fire beats grass</p>
+                <p class="ruleText" id="grassRules">Grass beats water</p>
+            </div>
+        </div>
+        <div class="playButtons">
+            <input type="image" class="choiceBtn" id="water" src="./images/water.svg">
+            <input type="image" class="choiceBtn" id="fire" src="./images/fire.svg">
+            <input type="image" class="choiceBtn" id="grass" src="./images/grass.svg">
+        </div>
+        <div class="selections">
+            <p class="selection" id="playerChoice">You chose:</p>
+            <p class="selection" id="computerChoice">Computer chose:</p>
+        </div>
+        <div class="winnerOfRound">
+        </div>
+        <div class="score">
+            <p id="pScore">Player score:</p>
+            <p id="cScore">Computer score:</p>
+        </div>
+    </div>
+    <script src="rps.js"></script>
+</body>
+</html>

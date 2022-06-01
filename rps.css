@@ -1,0 +1,81 @@
+body {
+    background-color: #36393d;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rules {
+    display: flex;
+
+}
+
+.ruleText {
+    margin: 35px;
+}
+
+#waterRules {
+    color: #00abfb;
+}
+
+#fireRules {
+    color: #ff4500;
+}
+
+#grassRules {
+    color: #00b341;
+}
+
+.playButtons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 15%;
+}
+
+input:hover {
+    transform: scale(1.1);
+}
+
+#water {
+    border: 5px solid #00abfb;
+}
+
+#fire {
+    border: 5px solid #ff4500;
+}
+
+#grass {
+    border: 5px solid #00b341;
+}
+
+.selections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.selection {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.winnerOfRound {
+    display: flex;
+    justify-content: center;
+}
+.score {
+    display: flex;
+    justify-content: space-around;
+}
